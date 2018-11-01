@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html class="sl-root decks export loaded ua-phantomjs reveal-viewport theme-font-opensans theme-color-blue-yellow">
+	<html class="sl-root decks export loaded ua-phantomjs reveal-viewport theme-font-opensans theme-color-asphalt-orange">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
@@ -20,7 +20,7 @@
 </style>
 
 		<meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="bvmXc9XRRztItPq7jad6TqzctAi2SI1uJtfGtnJfz3EcII7GMnMx6DnYyETBLTf7RZoDQ2BQsIljFrjOIIAbVg==" />
+<meta name="csrf-token" content="Rh4DOfaQRKA/uEDx62NiefyrhOWBuRQj85yy1PUSHnE0xxqMETIyc07Ucg6n6S/MFe0zrlehKcS2Xcysp83KVg==" />
 		<style id="user-css-output" type="text/css"></style>
 	</head>
 	<body>
@@ -37,8 +37,6 @@
 
 <p style="text-align:left">* What does a function look like in Javascript?</p>
 
-<p style="text-align:left">* What are the parts of a function?</p>
-
 <p style="text-align:left">* How do we use functions?</p>
 </div></div></section><section data-id="0c22189a2e5557a26c416d8e106fcd10"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="9243294762984b93730ef0d25a78202f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
 <h1>FUNCTIONS</h1>
@@ -46,7 +44,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="d307bf9caa9448d8f71eab425cd7d19a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
 <p>(Why?)</p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="336e2497071f41fbb912f312c8741ced"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="336e2497071f41fbb912f312c8741ced"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
 <p style="text-align:left">* As applications grow larger, they become more difficult to manage.</p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 798px; left: 80px; top: 490px;" data-block-id="6b2718a0407e694e948b11df96dfc973"><div class="sl-block-style" style="z-index: 14; transform: rotate(360deg);"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="1">
@@ -60,7 +58,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="4210e726bf615074825809e5bb3b4dea"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
 <p>(Why?)</p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="3d95301836db9da6a27baf6aa6b05426"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="3d95301836db9da6a27baf6aa6b05426"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
 <p style="text-align:left">* Additionally, applications have to perform similar tasks more than once, but often at different times.</p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 77px; top: 350px;" data-block-id="6c6a2efb3a9321e48c61b8e0897addaf"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" dir="ui" data-fragment-index="0">
@@ -74,10 +72,10 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="dbd281e81a828ebb3e0145c93ed99abb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
 <p>(What do they look like?)</p>
 </div></div>
-<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 803px; height: 70px; left: 81px; top: 455px;" data-block-id="aa8457f535107b7d163e4efa29cf4062"><div class="sl-block-content notranslate fragment" style="z-index: 13;" data-fragment-index="0"><pre class="javascript"><code>function Hello() {
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 803px; height: 70px; left: 81px; top: 455px;" data-block-id="aa8457f535107b7d163e4efa29cf4062"><div class="sl-block-content notranslate fragment" style="z-index: 13;" data-fragment-index="0" data-highlight-theme="zenburn"><pre class="javascript"><code>function Hello() {
     alert("Hello, world!");
 }</code></pre></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 82px; top: 210px;" data-block-id="bda14995977ed69c4a490c9a43e63fa0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 82px; top: 210px;" data-block-id="bda14995977ed69c4a490c9a43e63fa0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
 <p style="text-align:left">* Here's a really simple function, called "Hello".</p>
 </div></div>
 <div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 82px; top: 560px;" data-block-id="f794db7e29c61f0d027291b5a43aa008"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" dir="ui" data-fragment-index="1">
@@ -93,7 +91,7 @@
 <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="005e5216002e822490160b25f9400e6b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
 <p>(What do they look like?)</p>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 803px; height: 179px; left: 81px; top: 420px;" data-block-id="3ed0bd5526f17016f531c76cf51a6835"><div class="sl-block-content notranslate" style="z-index: 13; transition-duration: 0.6s;" data-animation-type="fade-in"><pre class="javascript"><code>function Hello() {
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 179px; left: 81px; top: 420px;" data-block-id="3ed0bd5526f17016f531c76cf51a6835"><div class="sl-block-content notranslate" style="z-index: 13; transition-duration: 0.6s;" data-animation-type="fade-in" data-highlight-theme="zenburn"><pre class="javascript"><code>function Hello() {
     alert("Hello, world!");
 }
 
@@ -101,30 +99,288 @@
 //by typing its name and adding ().
 
 Hello();</code></pre></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 82px; top: 210px;" data-block-id="f000e367765c60dbbc12bd43ea2b3b70"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 210px;" data-block-id="f000e367765c60dbbc12bd43ea2b3b70"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
 <p style="text-align:left">* If we wanted to use this function to say hello to the user, we would <em>call</em> it using it's <em>name</em> and another set of parenthesis.</p>
 
 <p style="text-align:left"> </p>
-</div></div></section><section data-id="8a33f9cffc3788fa7193421ed706a3a4"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="67d99edad86c644802d44f61483560bb"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+</div></div></section><section data-id="8a33f9cffc3788fa7193421ed706a3a4"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="67d99edad86c644802d44f61483560bb"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
 <h1>FUNCTIONS</h1>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="44b90bb6653f6effa594c435396808dc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="44b90bb6653f6effa594c435396808dc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
 <p>(What do they look like?)</p>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 210px;" data-block-id="a046ec381a4edc964b37046169ac8c3c"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui" data-fragment-index="0">
-<p style="text-align:left">* Try editing the text in the alert box, and clicking "Result" to see what happens.</p>
-
-<p style="text-align:left">* We can also try to call "Hello" twice. See what happens.</p>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 210px;" data-block-id="a046ec381a4edc964b37046169ac8c3c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
+<p style="text-align:left">* But, what if we wanted to change our greeting?</p>
 
 <p style="text-align:left"> </p>
 </div></div>
-<div class="sl-block" data-block-type="iframe" style="min-width: 30px; min-height: 30px; width: 800px; height: 300px; left: 82px; top: 366px;" data-block-id="04257429bd85821deb5fdb4c9a4e2713"><div class="sl-block-content" style="z-index: 15;"><iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="//jsfiddle.net/lordmaple/d62thuwy/2/embedded/js,result/dark/"></iframe></div></div></section>
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 274px; left: 79px; top: 420px;" data-block-id="ac233f17c55a4796f7fe9ab48c2a0e55"><div class="sl-block-content notranslate fragment" style="z-index: 14;" data-fragment-index="0" data-highlight-theme="zenburn"><pre class="javascript"><code>// This function has one parameter, which is declared
+// between the parenthesis, called "message".
+
+function Say(message) {
+    alert(message);
+}
+
+// This is how you call a function with a parameter,
+// by including it within the parenthesis.
+
+Say("Oi, Mundo!");
+
+// This would pop-up an alert saying "Oi, Mundo!"</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 280px;" data-block-id="a70d92406dfefcadb89ff7f1796ee350"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" dir="ui" data-fragment-index="0">
+<p style="text-align:left">* Functions also accept <em>parameters </em>(also called <em>arguments</em>). This is input to the function that changes what it does.</p>
+
+<p style="text-align:left"> </p>
+</div></div></section><section data-id="f42d4f476ff7a6591662f91c7375afbb"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="53faa288e362aeb242ea813d14a3c48e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>FUNCTIONS</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="66b2b8d9dca1ead687690d964543cf43"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>(What do they look like?)</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 172px;" data-block-id="8503466b35f58e12bf8a5bf4ad61c8d7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
+<p style="text-align:left">* Well, what if we wanted to say hello to a particular person?</p>
+
+<p style="text-align:left"> </p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 305px; left: 80px; top: 395px;" data-block-id="2f764e779736a926afb2859b3247e6cf"><div class="sl-block-content notranslate fragment" style="z-index: 13;" data-fragment-index="0"><pre class="javascript"><code>// This function has two parameters, which are declared
+// between the parenthesis, called "message", and "receiver".
+
+function Say(message, receiver) {
+    // Here, we are concatenating two strings together. (Hopefully!)
+    alert(receiver + ": " + message);
+}
+
+// This is how you call a function with more than one parameter,
+// by including it within the parenthesis and adding a comma
+// between each parameter. We use the same order as defined in
+// the function.
+
+Say("Hullo!", "G'uvnah");
+
+// This will produce an alert box with "G'uvnah: Hullo!"</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 268px;" data-block-id="283e3545a9c48a50e214344916e4ac7d"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui" data-fragment-index="0">
+<p style="text-align:left">* We can define functions to take more than one parameter (as many as you like). They are separated by commas in both the definition and when we call them.</p>
+
+<p style="text-align:left"> </p>
+</div></div></section><section data-id="917b2565a15a433dc63f2cfcc79b2cbe"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="4179fd7591e7a4c821d4b4d5f02ebbb1"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>FUNCTIONS</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="0ea910cda0beb9c8dc1e89f689c491ff"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>(What do they look like?)</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 210px;" data-block-id="8291c68f40ead847f9e045ffe52b7781"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
+<p style="text-align:left">* <em>Parameters </em>are like variables, except they only exist within the function itself.</p>
+
+<p style="text-align:left"> </p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 230px; left: 79px; top: 384px;" data-block-id="e01b9115dfeef1dc7376c2cc34828673"><div class="sl-block-content notranslate fragment" style="z-index: 13;" data-fragment-index="0" data-highlight-theme="zenburn"><pre class="javascript"><code>function Say(message) {
+    // Message is defined here.
+    alert(message);
+}
+
+// But, not here.
+// This will throw an error: 'message is undefined'
+alert(message);</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 315px;" data-block-id="ec2bc38595e3f974787c04c18bd034ae"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui" data-fragment-index="0">
+<p style="text-align:left">* When the function is done, we can no longer use them.</p>
+
+<p style="text-align:left"> </p>
+</div></div></section><section data-id="5e8d5795e9f77b135a2ecab5dad7c2ad"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="b17264de72b2bff4387d21b188d1694d"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>FUNCTIONS</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="7546ec1a43a93104e6b5e84884772148"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>(What do they look like?)</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 82px; top: 210px;" data-block-id="d1fb5229b897c65d4a0de591c14d476c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
+<p style="text-align:left">* If we want to get a value out of a function, we have to <em>return </em>it. We do this with the <em>return</em> keyword, and the value is known as the <em>return value.</em></p>
+
+<p style="text-align:left"> </p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 167px; left: 82px; top: 463px;" data-block-id="58731faa723b8a7ca10cfe21e8bddab3"><div class="sl-block-content notranslate fragment" style="z-index: 13;" data-fragment-index="0" data-highlight-theme="zenburn"><pre class="javascript"><code>function Multiply(a, b) {
+    let product = a * b;
+    // Return product so we can use it outside of the function.
+    return product;
+}
+
+let result = Multiply(2, 2);
+// Result now has the value 4.</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 798px; left: 80px; top: 350px;" data-block-id="80504297baf38bd147e5d8b4b48b27d1"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui" data-fragment-index="0">
+<p style="text-align:left">* We can assign any variable to the <em>return value</em> of a function.</p>
+</div></div></section><section data-id="04214dfa65bbfd87937dff006643e8bd"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="d09ccd1ea794643df35b01875cffb0d7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>FUNCTIONS</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 803px; left: 80px; top: 210px;" data-block-id="7af713642199c7b90bb395e54b5bc6d8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; transition-duration: 0.6s;" dir="ui" data-animation-type="slide-left">
+<p style="text-align:left">* Functions and their parameters can be named anything you like, as long as it's not a keyword, like <em>return, let, if</em>, or <em>function</em>.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 547px;" data-block-id="1c4404d8985360b75b1b982891956888"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui" data-fragment-index="0">
+<p style="text-align:left">* Here's a list of reserved keywords as a reference for you (but don't worry, no one remembers all of them):</p>
+
+<p style="text-align:left"> <a href="https://www.w3schools.com/js/js_reserved.asp" target="_blank">https://www.w3schools.com/js/js_reserved.asp</a></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="24124e45db14d296f250e7972a52d081"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p>(What limitations are there on names?)</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 171px; left: 80px; top: 350px;" data-block-id="99f442e7cf287dc82fc15586e15efddc"><div class="sl-block-content notranslate" data-highlight-theme="zenburn" style="z-index: 15;"><pre class="javascript"><code>// Javascript will yell at you if you try to define
+// a function like this. Both "return" and "package"
+// are parts of the language and can't be used
+// as function names, parameter names, or variable names.
+
+function return(package) {
+    return package;
+}</code></pre></div></div></section><section data-id="02b1b695c027fecd5106d79ae0229b8e"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="fcc57c7e36b3f37597dacd46b37686bd"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>FUNCTIONS</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 77px; top: 420px;" data-block-id="4d47bdc30a469384a891cb34c8293371"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui" data-fragment-index="0">
+<p style="text-align:left">* Try not to do this, in other words:</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 134px; left: 83px; top: 496px;" data-block-id="139fe1b1693f372094b39c5d85e40f5b"><div class="sl-block-content notranslate fragment" style="z-index: 12;" data-fragment-index="0"><pre class="javascript"><code>function thingFunc(a222, b111) {
+    let wat = a222 * b111 / a222;
+    return wat;
+}
+
+// I have no idea what this does ¯\_(ツ)_/¯</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 210px;" data-block-id="1d8d4dec0b80519430e70f9dbeb3f183"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<p style="text-align:left">* However, most programmers try to pick good, easy to remember names for functions and parameters so it's easier to remember what they do and what they are for. This is called <em>good semantics</em>.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="0de9d4fbdfc9a6f9a8954ecee078f99c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p>(What limitations are there on names?)</p>
+</div></div></section><section data-id="338f32af24adf67157d230edb65ad8eb"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="bfc6f4997af427c0e61768a61f845aaa"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>FUNCTIONS</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 77px; top: 192px;" data-block-id="7752625a436e2ef82bfb895be7a3c33e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<p style="text-align:left">* We try to separate functions by logical function. For example, lets say we sell custom picture frames.</p>
+
+<p style="text-align:left">* We might need to calculate the areas of circles and rectangles because framing materials are expensive.</p>
+
+<p style="text-align:left">* We should probably define two functions to do this.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 168px; left: 77px; top: 462px;" data-block-id="d2453870f5754956952ead77bba1e2f5"><div class="sl-block-content notranslate" style="z-index: 13;"><pre class="javascript"><code>function circleArea (radius) {
+    // Multiply the squared radius by PI.
+    return radius * radius * Math.PI;
+}
+
+function rectangleArea(sideOne, sideTwo) {
+    return sideOne * sideTwo;
+}
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="2343d4f9dd92d173ef953c1420e40e18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p>(How do we use them?)</p>
+</div></div></section><section data-id="96716255bb627c2145d2e90fddf08fdb"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="98975989ed9f7053cc39a5adcce20428"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>FUNCTIONS</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 172px;" data-block-id="8123220901951c350a2070c38f2a6c9b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<p style="text-align:left">* If we wanted to calculate the area of the mat board in a circular picture frame, we could combine both functions in another function to make our lives easier!</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 381px; left: 83px; top: 319px;" data-block-id="ec4d4a7dd9ecff64e68cd8a7210af07c"><div class="sl-block-content notranslate" style="z-index: 13;"><pre class="javascript"><code>function circleArea (radius) {
+    // Multiply the squared radius by PI.
+    return radius * radius * Math.PI;
+}
+
+function rectangleArea(sideOne, sideTwo) {
+    return sideOne * sideTwo;
+}
+
+function matBoardArea(frameSideOne, frameSideTwo, openingRadius) {
+    return rectangleArea(frameSideOne, frameSideTwo) -
+           circleArea(exactMatOpeningRadius);
+}
+
+let costPerUnit = 5000;
+let fancyFrameCost = matBoardArea(5, 4, 2) * costPerUnit;
+
+// fancyFrameCost is now 37168.14. That better be quality material.
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="2816fd44b4944e1a70bd51105037a55d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p>(How do we use them?)</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 232px; height: 174px; left: 651px; top: 319px;" data-block-id="9bc0c0bd6df544eab63febb619affef0"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="570" data-natural-height="428" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/954430/images/5432840/pasted-from-clipboard.png"></div></div></section><section data-id="b1fe0777488ac6e804c21cfcf6771c21"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="8396f8afc7ca480bd94b7d510cfef472"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>FUNCTIONS</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 82px; top: 169px;" data-block-id="dacf46a53338171e4a88a6fb0af287aa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<p style="text-align:left">* Doing that all at once might have been hard, but by breaking the problem down into parts, it became more manageable.</p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left"> </p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 185px; left: 77px; top: 468px;" data-block-id="81bcc8903fe9560ca10c6d08b0414ee6"><div class="sl-block-content notranslate" style="z-index: 12;"><pre class="javascript"><code>function Squared(number) {
+    return number * number;
+}
+// Here, we are feeding the result of one function into another.
+// We can do this as many times as we like, but practically
+// I would not recommend nesting more than once.
+
+let result = Squared(Squared(4));
+// Can you guess what this might be?</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 79px; top: 321px;" data-block-id="8d06e7f467498bd8b2704966771b6d4b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<p style="text-align:left">* We also used a return value directly instead of assigning it to a variable. We can also do this for function parameters, which is often called <em>function nesting</em>.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 661px;" data-block-id="6b533f2c1e11fc959450e5a4a1e46e5e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" dir="ui">
+<p style="text-align:left">* (The answer is 256, or (16 * 16) = (4 * 4) * (4 * 4))</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="b85bd0287abe4f836166428592e4be13"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p>(How do we use them?)</p>
+</div></div></section><section data-id="4fd4f1e0ff7b0951496ec77e6478f6d0"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="35de561ceae56685aa424d012f414d10"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>FUNCTIONS</h1>
+</div></div>
+
+
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 175px; left: 82px; top: 210px;" data-block-id="4a0a6139c9b9c14de42581efeb9cd55c"><div class="sl-block-content notranslate" style="z-index: 11;"><pre class="javascript"><code>// Example 1:
+
+// Sometimes, I feel like a nut. Sometimes I don't.
+// Write a function that returns "Almond Joy" if passed true, 
+// and "Mounds" if passed false.
+
+DoIFeelLikeANut(false) =&gt; "Mounds"
+DoIFeelLikeANut(true) =&gt; "Almond Joy"</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 83px; top: 140px;" data-block-id="2630d7ae22943f028db9f0586e60cbc5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<p style="text-align:left">* It's time for you to give it a try.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 803px; height: 178px; left: 83px; top: 420px;" data-block-id="63bca15762f1171e9e3e6ab220cae899"><div class="sl-block-content notranslate" style="z-index: 15;"><pre class="javascript"><code>// Example 2:  
+//
+// I'm not very good at comparing things. Write a function
+// that returns the larger number of the two numbers I pass in.
+
+Max(1, 2) =&gt; 2
+Max(8, 4) =&gt; 8
+</code></pre></div></div></section><section data-id="c7bef34061be8d99af0f81be4f7b1402"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;" data-block-id="4773b26d39e3e80805af6ebd1ee724b7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>FUNCTIONS</h1>
+</div></div>
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 121px;" data-block-id="bd82b60a7a7be5e0e62eefa1d9845c07"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>(Wrapup)</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 171px;" data-block-id="4ea10c9812375e2f877b9b89ee67d016"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<p style="text-align:left">* Functions are discrete blocks of code that serve as logical abstractions and help us to organize our logic.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 77px; top: 292px;" data-block-id="beb2bff95d42626434de592d2fd9e8f6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<p style="text-align:left">* Functions can take zero to many parameters, and return a value (or not)</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 77px; top: 412px;" data-block-id="756cf0ecfa9bde171a595058e191a573"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui">
+<p style="text-align:left">* Well-named functions helps us understand what code does and what it's for.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 77px; top: 513px;" data-block-id="d2583f3691417622ec6aef5c6b611979"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;" dir="ui">
+<p style="text-align:left">* We can split a complex problem into many smaller building blocks, and combine them to solve problems more easily.</p>
+</div></div></section><section data-id="964f0810627e1e622bd9f91449b31078"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="c7fa04abb2be1fbc3ea95c848dfbfc75"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>THANKS</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 364px;" data-block-id="7b57243c2992ed6c6a7a9516aadd78bf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>(Questions?)</p>
+</div></div></section>
 			</div>
 		</div>
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":954430,"username":"lordmaple","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/04947c79845738c523cd7123dd199943?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":2143343,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null,"editor_grid":true,"editor_grid_on_top":false,"editor_snap":true,"editor_fixed_notes":false,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null,"media_sources":null,"export_controls":null,"export_slide_number":null,"export_slide_notes":null,"export_separate_fragments":null},"email":"lordmaple@gmail.com","notify_on_receipt":true,"billing_address":null,"billing_vat_id":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1,"storage_used":0,"storage_limit":262144000},"deck":{"id":1362903,"slug":"deck","title":"deck","description":"","width":960,"height":700,"visibility":"all","published_at":"2018-10-31T23:16:26.738Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/64b558adab78aa014f0612084e4a86f8/thumb.jpg?1541033478","view_count":0,"user":{"id":954430,"username":"lordmaple","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/04947c79845738c523cd7123dd199943?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":2143343,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"fade","transition":"fade","theme_id":null,"theme_font":"opensans","theme_color":"blue-yellow","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":6,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1541036431694,"font_typekit":null,"font_google":null,"notes":{}},"user":{"id":954430,"username":"lordmaple","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/04947c79845738c523cd7123dd199943?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":2143343,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}}};
+	var SLConfig = {"current_user":{"id":954430,"username":"lordmaple","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/04947c79845738c523cd7123dd199943?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":2143343,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null,"editor_grid":true,"editor_grid_on_top":false,"editor_snap":true,"editor_fixed_notes":false,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null,"media_sources":null,"export_controls":null,"export_slide_number":null,"export_slide_notes":null,"export_separate_fragments":null},"email":"lordmaple@gmail.com","notify_on_receipt":true,"billing_address":null,"billing_vat_id":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1,"storage_used":228560,"storage_limit":262144000},"deck":{"id":1362903,"slug":"deck","title":"deck","description":"","width":960,"height":700,"visibility":"all","published_at":"2018-10-31T23:16:26.738Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/64b558adab78aa014f0612084e4a86f8/thumb.jpg?1541041549","view_count":1,"user":{"id":954430,"username":"lordmaple","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/04947c79845738c523cd7123dd199943?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":2143343,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"fade","transition":"fade","theme_id":null,"theme_font":"opensans","theme_color":"asphalt-orange","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":17,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1541045638778,"font_typekit":null,"font_google":null,"notes":{}},"user":{"id":954430,"username":"lordmaple","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/04947c79845738c523cd7123dd199943?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":2143343,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}}};
 </script>
 
 		<script>
